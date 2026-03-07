@@ -1,0 +1,375 @@
+/* System */
+/*  background-color: rgb(38, 123, 201); */
+
+body {
+  background: linear-gradient(180deg, rgb(12, 40, 66), rgb(28, 85, 138));
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition-duration: 0.5s;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.884);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* UI Design */
+
+.top {
+    background-image: linear-gradient(to bottom, #455bff93, #00129c, #000848);
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 50px;
+    transition-duration: 0.5s;
+}
+
+.top .nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav button {
+    border-radius: 6px;
+    margin-left: 35px;
+    background: linear-gradient(180deg, #ffffff -40%, #0013a5, #000b5b);
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width: 80px;
+    transition-duration: 0.5s;
+}
+
+.nav .documentation {
+    width: 120px;
+}
+
+.updates .updates-icon:hover {
+    transform: scale(1.2);
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.8);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.8);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+    transition: 0.5s;
+}
+
+
+.about-image-container .about-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 32.3%;
+    border: 2px solid #000000;
+}
+
+.about {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about hr {
+    border: 2px solid #000000;
+    margin: 0 auto 20px auto;
+}
+
+hr {
+    border: 2px solid #000000;
+    margin: 0 auto 20px auto;
+}
+
+.update-section h1, .update-log h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.update-log {
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.645);
+}
+
+.home {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.645);
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.iframe-player {
+    border: 2px solid #000000;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    background-color: #000d6e;
+    width: 550px;
+    height: 100%;
+    transition: 0.5s;
+    color: white;
+    
+}
+
+.project-link {
+    margin-top: 20px;
+    color: #51fbc2;
+}
+
+.home img {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    width: 400px;
+    transition: 0.5s;
+    border: 2px solid #000000;
+}
+
+.documentation-section {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 19px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.645);
+}
+
+.home-hr {
+    margin-top: 24px;
+    border: 1px solid #000000;
+}
+
+.documentation-section h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    color: #65bcff;
+}
+
+.document {
+    border: 3px solid #000000;
+    margin: 0 auto 20px auto;
+}
+
+.photo-update {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+    border-radius: 8px;
+    background-color: #068edcba;
+    margin-top: 50px;
+    border: 5px solid #003856;
+    max-width: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.photo-update h1 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.photo-update img {
+    border: 3px solid #000000;
+    border-radius: 3%;
+}
+
+.parts {
+    width: 700px;
+}
+
+.link {
+    color: #1a9bfe;
+}
+
+
+.credits-section h1 {
+   text-align: center;
+    margin: 0 20px;
+}
+
+.credit{
+   text-align: center;
+    margin: 0 20px;
+}
+
+.credit hr {
+    width: 90%;
+    border: 1px solid #000000;
+}
+
+.credit iframe {
+    transition: 0.5s;
+    border: 5px solid #002672;
+}
+
+.web-link {
+    color: #00fbff;
+}
+
+.editor-image {
+    width: 40%;
+    border: 2px solid #000000;
+}
+
+.scratch-account-link {
+    color: #00fbff;
+    font-style: none;
+}
+
+.iframe-player-two {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.518);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #000d6e;
+    width: 550px;
+    height: 100%;
+    transition: 0.5s;
+    color: white;
+}
+
+.player-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.click-me {
+    cursor: pointer;
+    background: linear-gradient(180deg, #ffffff -40%, #0013a5, #000b5b);
+    color: #fff;
+    border-color: #fff;
+    transition: 0.5s;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 30%;
+    height: 40px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.click-me:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.8);
+    cursor: pointer;
+    transition: 0.5;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.211);
+}
+
+.iframe-player-two iframe{
+    border: none;
+}
+
+.project-title {
+    font-size: 17px;
+}
+
+.scratch-mit {
+    margin-top: 15px;
+}
+
+.web-link {
+    font-weight: bold;
+    color: #00fbff;
+}
+
+.nav .community {
+   width: 120px;
+}
+
+.logo-credit {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.photo-update2 {
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.348);
+    border-radius: 8px;
+    background-color: #068edcba;
+    margin-top: 50px;
+    border: 5px solid #003856;
+    max-width: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.photo-update2 img {
+    border: 3px solid #000000;
+    border-radius: 3%;
+}
+
+.photo-update2 h1 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.home .spinning-logo {
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.home .welcome {
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+.videos iframe{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+}
+
+.credits-section .invisible-line{
+    border: #00000000;
+}
+
+.web-link:hover {
+    color: #3e7bff;
+}
+
