@@ -374,6 +374,7 @@ hr {
 }
 
 
-.home .invisible-line {
+.home .invisible-line hr{
     border: 1px solid #00000000;
 }
+
