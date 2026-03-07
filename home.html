@@ -6,6 +6,7 @@
     <title>Home - Script</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/8.23.4/video-js.css" rel="stylesheet" />
 </head>
 <body>
     <div class="top">
@@ -30,6 +31,28 @@
         <h1>This programming language was developed for fun by the way.</h1>
         <h3>If you need help, go to <a href="documentation.html" class="link">the documentation</a>.</h3>
         <hr>
+        <h3>Here's a demo of Script in action:</h3>
+        <video
+            id="script-demo"
+            class="video-js"
+            controls
+            preload="auto"
+            width="640"
+            height="264"
+            data-setup="{}"
+        >
+            <source src="demo.mp4" type="video/mp4" />
+            <source src="demo.webm" type="video/webm" />
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+            >
+            </p>
+        </video>
+        <hr class="invisible-line">
+        <hr>
         <h2>Here's the link to the Scratch project: <a href="https://scratch.mit.edu/projects/1263610790/" class="project-link">https://scratch.mit.edu/projects/1263610790/</a> </h2>
         <h2>Or try it on this page:</h2>
         <div class="player">
@@ -43,6 +66,7 @@
         <hr class="home-hr">
         <h5>Hosted using GitHub</h5>
     </div>
+    <script src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
     <script>
         console.log("You are in the home page.")
     </script>
