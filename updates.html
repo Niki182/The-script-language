@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Updates - Script</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-slider.css">
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="top">
         <a href="home.html"><img src="images/Script logo.png" class="logo" id="logo"></a>
@@ -15,24 +21,27 @@
             <a href="documentation.html"><button class="documentation">Documentation</button></a>
             <a href="updates.html"><button class="updates">Updates</button></a>
             <a href="credits.html"><button class="updates">Credits</button></a>
-            <a href="https://scratch.mit.edu/studios/51379493" target="_blank"><button class="community">Community</button></a>
+            <a href="https://scratch.mit.edu/studios/51379493" target="_blank"><button
+                    class="community">Community</button></a>
         </div>
     </div>
     <div class="update-section">
         <h1>Updates</h1>
         <hr>
         <div class="update-log">
-            
+
             <h2>v1.0 - Script was published on this day. (January 29th, 2026)</h2>
             <h2>v1.0.1 - The previous list bug is fixed. The user interface is changed. (February 18th, 2026)</h2>
             <h2>v1.0.2 - The rotation is added!. (February 19th, 2026)</h2>
-            <h2>v1.0.3 - The "&ltclear 3D spin or outline&gt" script is renamed to "&ltclear pen and clones&gt". (February 20th, 2026)</h2>
+            <h2>v1.0.3 - The "&ltclear 3D spin or outline&gt" script is renamed to "&ltclear pen and clones&gt".
+                (February 20th, 2026)</h2>
             <h2>v1.0.4: Redesigned the scratch cat. (21st February, 2026)</h2>
             <div class="photo-update">
                 <img src="images/cat.png">
                 <h1>The scratch cat redesigned my me. Scratch cat belongs to Scratch Foundation and MIT</h1>
             </div>
-            <h2>v1.0.5: Added a new feature for better user experience. It's sounds and costumes list (March 7th, 2026)</h2>
+            <h2>v1.0.5: Added a new feature for better user experience. It's sounds and costumes list (March 7th, 2026)
+            </h2>
             <h2>v1.1.0: Added x and y position scripts. Also added more sounds and costumes (March 22nd, 2026)</h2>
             <h2>v1.2.1: You can use backdrops (April 18th, 2026)</h2>
             <div class="photo-update">
@@ -42,8 +51,35 @@
             <div class="photo-update">
                 <img src="images/console.png" alt="backdrops" style="border-radius: 0px;">
             </div>
+            <h2>v1.3.0: User interface changed (July 19th, 2026)</h2>
+            <div class="photo-update">
+                <img src="images/new ui.png" alt="backdrops" style="border-radius: 0px; width: 90%;">
+            </div>
+            <h2>New sprites are added as well</h2>
+
+            <div class="slider_box">
+                <div class="slider_controls">
+                    <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+                </div>
+
+                <div class="container_slider">
+                    <div class="slider">
+                        <div class="slide active"><img src="images/buddy1.png" alt=""
+                                style="width: 30%; display: block; margin: 0 auto;"></div>
+                        <div class="slide"><img src="images/buddy2.png" alt=""
+                                style="width: 30%; display: block; margin: 0 auto;"></div>
+                        <div class="slide"><img src="images/buddy3.png" alt=""
+                                style="width: 30%; display: block; margin: 0 auto;"></div>
+                    </div>
+                </div>
+
+                <div class="slider_controls">
+                    <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="slider.js"></script>
     <script>
         console.log("You are in the updates page.")
     </script>
