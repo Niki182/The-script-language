@@ -388,3 +388,13 @@ hr {
 .scratch-button:hover {
     background: linear-gradient(180deg, #b4b4b4, #fff);
 }
+
+.banner {
+    font-weight: bold;
+    background-color: rgba(0, 108, 167, 0.677);
+    padding: 1em;
+}
+
+.announcement {
+    text-transform: uppercase;
+}
